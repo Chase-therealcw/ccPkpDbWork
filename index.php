@@ -1,15 +1,11 @@
 <?php
+$a = array(10, 20, 30, 40, 50,);
+$b = array(1, 2, 3, 4, 5);
 
- $numbers[0] = 1;
- $numbers[1] = 2;
+for($i = 0; $i < count($a); $i++) {
 
-print_r($numbers);
-echo "<br>";
-var_dump($numbers);
-echo "<br>";
+  $c[$i] = $a[$i]  + $b[$i];
 
-$arrayCount = count($numbers);
-echo $arrayCount . "<br>";
+}
 
-
- ?>
+print_r($c);
