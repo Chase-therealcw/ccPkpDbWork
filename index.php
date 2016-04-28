@@ -7,9 +7,10 @@ $c = $a + $b;
 
 $d = $b - $a;
 
-echo $c;
+echo "$a + $b =" . $c;
 echo '<br>';
-echo $d;
+echo "$b - $b =" . $d;
+
 
 
 
