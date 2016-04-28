@@ -1,28 +1,15 @@
 <?php
 
-$firstName = "Mickey";
-$lastName = "Mouse";
+ $numbers[0] = 1;
+ $numbers[1] = 2;
 
-echo $firstName;
-echo"<br>";
-echo $lastName;
+print_r($numbers);
+echo "<br>";
+var_dump($numbers);
 echo "<br>";
 
-$lastName = "Duck";
+$arrayCount = count($numbers);
+echo $arrayCount . "<br>";
 
-echo $firstName;
-echo "<br>";
-echo $lastName;
-echo "<br>";
-
-$name = $firstName. " " . $lastName . "<br>";
-echo $name;
-echo "<br>";
-
-$intro = "My name is " . $name . "<br>";
-
-echo $intro;
-
-echo "My first name is " . $firstName;
 
  ?>
