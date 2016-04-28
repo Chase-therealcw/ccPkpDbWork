@@ -1,32 +1,28 @@
 <?php
 
-$a = 4;
-$b = 25;
+$firstName = "Mickey";
+$lastName = "Mouse";
 
-$c = $a + $b;
+echo $firstName;
+echo"<br>";
+echo $lastName;
+echo "<br>";
 
-$d = $b - $a;
+$lastName = "Duck";
 
-echo "$a + $b =" . $c;
-echo '<br>';
-echo "$b - $b =" . $d;
+echo $firstName;
+echo "<br>";
+echo $lastName;
+echo "<br>";
 
+$name = $firstName. " " . $lastName . "<br>";
+echo $name;
+echo "<br>";
 
+$intro = "My name is " . $name . "<br>";
 
+echo $intro;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+echo "My first name is " . $firstName;
 
  ?>
